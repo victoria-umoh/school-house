@@ -159,11 +159,11 @@ class Footer extends Component{
                 </div>
                 {/* footer */}
                 {/* Back to Top */}
-                <a href="#" className="btn btn-lg btn-lg-square back-to-top">
+                <button className="btn btn-lg btn-lg-square back-to-top">
                     Up
                     <FontAwesomeIcon icon={faArrowUp} size="2xl" />
                     {/* <i className="fas fa-arrow-up" /> */}
-                </a>
+                </button>
                 </>
 
             </div>

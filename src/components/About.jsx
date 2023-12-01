@@ -13,7 +13,7 @@ class about extends Component{
                     <section id="about" className="pt-5 pb-5">
                       <div className="row container m-auto mt-5 mb-5">
                         <div className="col-md-5">
-                          <img src="assets/images/students6.jpeg" className="w-100 h-100" />
+                          <img src="assets/images/students6.jpeg" className="w-100 h-100" alt="" />
                         </div>
                         <div className="col-md-7 abt">
                           <div className="container">
