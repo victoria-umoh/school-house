@@ -37,27 +37,24 @@ class Header extends Component{
                             id="navbarSupportedContent"
                         >
                             <ul className="navbar-nav m-auto mb-2 mb-lg-0">
-                            <li className="nav-item">
-                                <Link to="/" id="#" className="nav-link active" aria-current="page"> Home </Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link to="/about" className="nav-link"> About </Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link to="/classes" className="nav-link"> Classes </Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link to="/gallery" className="nav-link"> Gallery </Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link to="teachers" className="nav-link"> Teachers </Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link to="/contact" className="nav-link"> Contact </Link>
-                            </li>
-                            {/* <li class="nav-item">
-                                            <button href="#bookings" class="nav-link">Join Class</button>
-                                            </li> */}
+                                <li className="nav-item">
+                                    <Link to="/" id="#" className="nav-link active" aria-current="page"> Home </Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link to="/about" className="nav-link"> About </Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link to="/classes" className="nav-link"> Classes </Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link to="/gallery" className="nav-link"> Gallery </Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link to="teachers" className="nav-link"> Teachers </Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link to="/contact" className="nav-link"> Contact </Link>
+                                </li>
                             </ul>
                             <button><Link to="/bookings" className="text-light text-decoration-none">
                             Join Class
