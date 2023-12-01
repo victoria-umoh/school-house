@@ -1,9 +1,5 @@
 import React, { Component } from "react";
 
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faGithub, faFacebook, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
-// import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-
 
 class bookings extends Component{
     render(){
@@ -23,7 +19,7 @@ class bookings extends Component{
                         <div className="col-md-6">
                           <img
                             src="assets/images/students8.jpeg"
-                            className="img-fluid book_img"
+                            className="img-fluid book_img" alt=""
                           />
                         </div>
                         <div className="col-md-6 pe-0 px-0 pb-0">

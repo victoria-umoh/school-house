@@ -224,7 +224,7 @@ class classes extends Component{
                       <div className="row container m-auto mb-5">
                         <div className="col-md-6">
                           <img
-                            src="assets/images/students8.jpeg"
+                            src="assets/images/students8.jpeg" alt=""
                             className="img-fluid book_img"
                           />
                         </div>
@@ -342,36 +342,36 @@ class classes extends Component{
                         >
                           <img
                             src="assets/images/students13.jpeg"
+                            className="img-fluid w-100 h-100" alt=""
+                          />
+                        </div>
+                        <div className="col-md-2" style={{ width: 270, padding: 0 }}>
+                          <img
+                            src="assets/images/students2.jpeg" alt=""
                             className="img-fluid w-100 h-100"
                           />
                         </div>
                         <div className="col-md-2" style={{ width: 270, padding: 0 }}>
                           <img
-                            src="assets/images/students2.jpeg"
+                            src="assets/images/students4.jpeg" alt=""
                             className="img-fluid w-100 h-100"
                           />
                         </div>
                         <div className="col-md-2" style={{ width: 270, padding: 0 }}>
                           <img
-                            src="assets/images/students4.jpeg"
+                            src="assets/images/students3.jpeg" alt=""
                             className="img-fluid w-100 h-100"
                           />
                         </div>
                         <div className="col-md-2" style={{ width: 270, padding: 0 }}>
                           <img
-                            src="assets/images/students3.jpeg"
+                            src="assets/images/students7.jpeg" alt=""
                             className="img-fluid w-100 h-100"
                           />
                         </div>
                         <div className="col-md-2" style={{ width: 270, padding: 0 }}>
                           <img
-                            src="assets/images/students7.jpeg"
-                            className="img-fluid w-100 h-100"
-                          />
-                        </div>
-                        <div className="col-md-2" style={{ width: 270, padding: 0 }}>
-                          <img
-                            src="assets/images/musical.jpg"
+                            src="assets/images/musical.jpg" alt=""
                             className="img-fluid w-100 h-100"
                           />
                         </div>
@@ -379,37 +379,37 @@ class classes extends Component{
                       <div className="row d-flex justify-content-center gallery">
                         <div className="col-md-2" style={{ width: 270, padding: 0 }}>
                           <img
-                            src="assets/images/students5.jpeg"
+                            src="assets/images/students5.jpeg" alt=""
                             className="img-fluid w-100 h-100"
                           />
                         </div>
                         <div className="col-md-2" style={{ width: 270, padding: 0 }}>
                           <img
-                            src="assets/images/students14.jpeg"
+                            src="assets/images/students14.jpeg" alt=""
                             className="img-fluid w-100 h-100"
                           />
                         </div>
                         <div className="col-md-2" style={{ width: 270, padding: 0 }}>
                           <img
-                            src="assets/images/students12.jpeg"
+                            src="assets/images/students12.jpeg" alt=""
                             className="img-fluid w-100 h-100"
                           />
                         </div>
                         <div className="col-md-2" style={{ width: 270, padding: 0 }}>
                           <img
-                            src="assets/images/students10.jpeg"
+                            src="assets/images/students10.jpeg" alt=""
                             className="img-fluid w-100 h-100"
                           />
                         </div>
                         <div className="col-md-2" style={{ width: 270, padding: 0 }}>
                           <img
-                            src="assets/images/students8.jpeg"
+                            src="assets/images/students8.jpeg" alt=""
                             className="img-fluid w-100 h-100"
                           />
                         </div>
                         <div className="col-md-2" style={{ width: 270, padding: 0 }}>
                           <img
-                            src="assets/images/students11.webp"
+                            src="assets/images/students11.webp" alt=""
                             className="img-fluid w-100 h-100"
                           />
                         </div>
@@ -442,15 +442,15 @@ class classes extends Component{
                                   style={{ marginTop: "-23px" }}
                                 >
                                   <div className="bg-light d-flex justify-content-center pt-2 px-1">
-                                    <a className="btn btn-sm-square btn-primary mx-1" href="">
+                                    <button className="btn btn-sm-square btn-primary mx-1">
                                       <i className="fab fa-facebook-f" />
-                                    </a>
-                                    <a className="btn btn-sm-square btn-primary mx-1" href="">
+                                    </button>
+                                    <button className="btn btn-sm-square btn-primary mx-1">
                                       <i className="fab fa-twitter" />
-                                    </a>
-                                    <a className="btn btn-sm-square btn-primary mx-1" href="">
+                                    </button>
+                                    <button className="btn btn-sm-square btn-primary mx-1">
                                       <i className="fab fa-instagram" />
-                                    </a>
+                                    </button>
                                   </div>
                                 </div>
                                 <div className="text-center p-4">
@@ -476,15 +476,15 @@ class classes extends Component{
                                   style={{ marginTop: "-23px" }}
                                 >
                                   <div className="bg-light d-flex justify-content-center pt-2 px-1">
-                                    <a className="btn btn-sm-square btn-primary mx-1" href="">
+                                    <button className="btn btn-sm-square btn-primary mx-1">
                                       <i className="fab fa-facebook-f" />
-                                    </a>
-                                    <a className="btn btn-sm-square btn-primary mx-1" href="">
+                                    </button>
+                                    <button className="btn btn-sm-square btn-primary mx-1">
                                       <i className="fab fa-twitter" />
-                                    </a>
-                                    <a className="btn btn-sm-square btn-primary mx-1" href="">
+                                    </button>
+                                    <button className="btn btn-sm-square btn-primary mx-1">
                                       <i className="fab fa-instagram" />
-                                    </a>
+                                    </button>
                                   </div>
                                 </div>
                                 <div className="text-center p-4">
@@ -510,15 +510,15 @@ class classes extends Component{
                                   style={{ marginTop: "-23px" }}
                                 >
                                   <div className="bg-light d-flex justify-content-center pt-2 px-1">
-                                    <a className="btn btn-sm-square btn-primary mx-1" href="">
+                                    <button className="btn btn-sm-square btn-primary mx-1">
                                       <i className="fab fa-facebook-f" />
-                                    </a>
-                                    <a className="btn btn-sm-square btn-primary mx-1" href="">
+                                    </button>
+                                    <button className="btn btn-sm-square btn-primary mx-1">
                                       <i className="fab fa-twitter" />
-                                    </a>
-                                    <a className="btn btn-sm-square btn-primary mx-1" href="">
+                                    </button>
+                                    <button className="btn btn-sm-square btn-primary mx-1">
                                       <i className="fab fa-instagram" />
-                                    </a>
+                                    </button>
                                   </div>
                                 </div>
                                 <div className="text-center p-4">
@@ -544,15 +544,15 @@ class classes extends Component{
                                   style={{ marginTop: "-23px" }}
                                 >
                                   <div className="bg-light d-flex justify-content-center pt-2 px-1">
-                                    <a className="btn btn-sm-square btn-primary mx-1" href="">
+                                    <button className="btn btn-sm-square btn-primary mx-1">
                                       <i className="fab fa-facebook-f" />
-                                    </a>
-                                    <a className="btn btn-sm-square btn-primary mx-1" href="">
+                                    </button>
+                                    <button className="btn btn-sm-square btn-primary mx-1">
                                       <i className="fab fa-twitter" />
-                                    </a>
-                                    <a className="btn btn-sm-square btn-primary mx-1" href="">
+                                    </button>
+                                    <button className="btn btn-sm-square btn-primary mx-1">
                                       <i className="fab fa-instagram" />
-                                    </a>
+                                    </button>
                                   </div>
                                 </div>
                                 <div className="text-center p-4">
@@ -578,7 +578,7 @@ class classes extends Component{
                             <div className="testimonial-item text-center">
                               <img
                                 className="border rounded-circle p-2 mx-auto mb-3"
-                                src="assets/img/testimonial-1.jpg"
+                                src="assets/img/testimonial-1.jpg" alt=""
                                 style={{ width: 80, height: 80 }}
                               />
                               <h5 className="mb-0">Client Name</h5>
@@ -593,7 +593,7 @@ class classes extends Component{
                             <div className="testimonial-item text-center">
                               <img
                                 className="border rounded-circle p-2 mx-auto mb-3"
-                                src="assets/img/testimonial-2.jpg"
+                                src="assets/img/testimonial-2.jpg" alt=""
                                 style={{ width: 80, height: 80 }}
                               />
                               <h5 className="mb-0">Client Name</h5>
@@ -608,7 +608,7 @@ class classes extends Component{
                             <div className="testimonial-item text-center">
                               <img
                                 className="border rounded-circle p-2 mx-auto mb-3"
-                                src="assets/img/testimonial-3.jpg"
+                                src="assets/img/testimonial-3.jpg" alt=""
                                 style={{ width: 80, height: 80 }}
                               />
                               <h5 className="mb-0">Client Name</h5>
@@ -623,7 +623,7 @@ class classes extends Component{
                             <div className="testimonial-item text-center">
                               <img
                                 className="border rounded-circle p-2 mx-auto mb-3"
-                                src="assets/img/testimonial-4.jpg"
+                                src="assets/img/testimonial-4.jpg" alt=""
                                 style={{ width: 80, height: 80 }}
                               />
                               <h5 className="mb-0">Client Name</h5>
