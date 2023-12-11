@@ -18,7 +18,7 @@ class contact extends Component{
                       <div className="row container m-auto mb-5">
                         <div className="col-md-6">
                           <img
-                            src="assets/images/students8.jpeg"
+                            src="assets/images/students8.jpeg" alt=""
                             className="img-fluid book_img"
                           />
                         </div>

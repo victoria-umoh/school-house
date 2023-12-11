@@ -31,15 +31,15 @@ class teachers extends Component{
                                   style={{ marginTop: "-23px" }}
                                 >
                                   <div className="bg-light d-flex justify-content-center pt-2 px-1">
-                                    <a className="btn btn-sm-square btn-primary mx-1" href="">
+                                    <button className="btn btn-sm-square btn-primary mx-1">
                                       <i className="fab fa-facebook-f" />
-                                    </a>
-                                    <a className="btn btn-sm-square btn-primary mx-1" href="">
+                                    </button>
+                                    <button className="btn btn-sm-square btn-primary mx-1">
                                       <i className="fab fa-twitter" />
-                                    </a>
-                                    <a className="btn btn-sm-square btn-primary mx-1" href="">
+                                    </button>
+                                    <button className="btn btn-sm-square btn-primary mx-1">
                                       <i className="fab fa-instagram" />
-                                    </a>
+                                    </button>
                                   </div>
                                 </div>
                                 <div className="text-center p-4">
@@ -65,15 +65,15 @@ class teachers extends Component{
                                   style={{ marginTop: "-23px" }}
                                 >
                                   <div className="bg-light d-flex justify-content-center pt-2 px-1">
-                                    <a className="btn btn-sm-square btn-primary mx-1" href="">
+                                    <button className="btn btn-sm-square btn-primary mx-1">
                                       <i className="fab fa-facebook-f" />
-                                    </a>
-                                    <a className="btn btn-sm-square btn-primary mx-1" href="">
+                                    </button>
+                                    <button className="btn btn-sm-square btn-primary mx-1">
                                       <i className="fab fa-twitter" />
-                                    </a>
-                                    <a className="btn btn-sm-square btn-primary mx-1" href="">
+                                    </button>
+                                    <button className="btn btn-sm-square btn-primary mx-1">
                                       <i className="fab fa-instagram" />
-                                    </a>
+                                    </button>
                                   </div>
                                 </div>
                                 <div className="text-center p-4">
@@ -99,15 +99,15 @@ class teachers extends Component{
                                   style={{ marginTop: "-23px" }}
                                 >
                                   <div className="bg-light d-flex justify-content-center pt-2 px-1">
-                                    <a className="btn btn-sm-square btn-primary mx-1" href="">
+                                    <button className="btn btn-sm-square btn-primary mx-1">
                                       <i className="fab fa-facebook-f" />
-                                    </a>
-                                    <a className="btn btn-sm-square btn-primary mx-1" href="">
+                                    </button>
+                                    <button className="btn btn-sm-square btn-primary mx-1">
                                       <i className="fab fa-twitter" />
-                                    </a>
-                                    <a className="btn btn-sm-square btn-primary mx-1" href="">
+                                    </button>
+                                    <button className="btn btn-sm-square btn-primary mx-1">
                                       <i className="fab fa-instagram" />
-                                    </a>
+                                    </button>
                                   </div>
                                 </div>
                                 <div className="text-center p-4">
@@ -133,15 +133,15 @@ class teachers extends Component{
                                   style={{ marginTop: "-23px" }}
                                 >
                                   <div className="bg-light d-flex justify-content-center pt-2 px-1">
-                                    <a className="btn btn-sm-square btn-primary mx-1" href="">
+                                    <button className="btn btn-sm-square btn-primary mx-1">
                                       <i className="fab fa-facebook-f" />
-                                    </a>
-                                    <a className="btn btn-sm-square btn-primary mx-1" href="">
+                                    </button>
+                                    <button className="btn btn-sm-square btn-primary mx-1">
                                       <i className="fab fa-twitter" />
-                                    </a>
-                                    <a className="btn btn-sm-square btn-primary mx-1" href="">
+                                    </button>
+                                    <button className="btn btn-sm-square btn-primary mx-1">
                                       <i className="fab fa-instagram" />
-                                    </a>
+                                    </button>
                                   </div>
                                 </div>
                                 <div className="text-center p-4">
@@ -167,7 +167,7 @@ class teachers extends Component{
                             <div className="testimonial-item text-center">
                               <img
                                 className="border rounded-circle p-2 mx-auto mb-3"
-                                src="assets/img/testimonial-1.jpg"
+                                src="assets/img/testimonial-1.jpg" alt=''
                                 style={{ width: 80, height: 80 }}
                               />
                               <h5 className="mb-0">Client Name</h5>
@@ -182,7 +182,7 @@ class teachers extends Component{
                             <div className="testimonial-item text-center">
                               <img
                                 className="border rounded-circle p-2 mx-auto mb-3"
-                                src="assets/img/testimonial-2.jpg"
+                                src="assets/img/testimonial-2.jpg" alt=''
                                 style={{ width: 80, height: 80 }}
                               />
                               <h5 className="mb-0">Client Name</h5>
@@ -197,7 +197,7 @@ class teachers extends Component{
                             <div className="testimonial-item text-center">
                               <img
                                 className="border rounded-circle p-2 mx-auto mb-3"
-                                src="assets/img/testimonial-3.jpg"
+                                src="assets/img/testimonial-3.jpg" alt=''
                                 style={{ width: 80, height: 80 }}
                               />
                               <h5 className="mb-0">Client Name</h5>
@@ -212,7 +212,7 @@ class teachers extends Component{
                             <div className="testimonial-item text-center">
                               <img
                                 className="border rounded-circle p-2 mx-auto mb-3"
-                                src="assets/img/testimonial-4.jpg"
+                                src="assets/img/testimonial-4.jpg" alt=''
                                 style={{ width: 80, height: 80 }}
                               />
                               <h5 className="mb-0">Client Name</h5>

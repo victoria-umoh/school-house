@@ -1,5 +1,9 @@
 import React, { Component } from "react";
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 19baf6fa9567a84c6586fb0d9488f8f0fb9d8655
 class bookings extends Component{
     render(){
         return(
@@ -18,7 +22,7 @@ class bookings extends Component{
                         <div className="col-md-6">
                           <img
                             src="assets/images/students8.jpeg"
-                            className="img-fluid book_img"
+                            className="img-fluid book_img" alt=""
                           />
                         </div>
                         <div className="col-md-6 pe-0 px-0 pb-0">

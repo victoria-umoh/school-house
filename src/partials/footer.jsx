@@ -3,8 +3,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 
 
-
-
 class Footer extends Component{
 
     constructor() {
@@ -58,25 +56,25 @@ class Footer extends Component{
                                 Useful links
                             </h5>
                             <p className="">
-                                <a className="text-light text-decoration-none">About Us</a>
+                                <span className="text-light text-decoration-none">About Us</span>
                             </p>
                             <p className="">
-                                <a className="text-white text-decoration-none">Contact Us</a>
+                                <span className="text-white text-decoration-none">Contact Us</span>
                             </p>
                             <p className="">
-                                <a className="text-white text-decoration-none">
+                                <span className="text-white text-decoration-none">
                                 Privacy Policy
-                                </a>
+                                </span>
                             </p>
                             <p className="">
-                                <a className="text-white text-decoration-none">
+                                <span className="text-white text-decoration-none">
                                 FAQ &amp; Help
-                                </a>
+                                </span>
                             </p>
                             <p className="">
-                                <a className="text-white text-decoration-none">
+                                <span className="text-white text-decoration-none">
                                 Terms &amp; Conditions
-                                </a>
+                                </span>
                             </p>
                             </div>
                             <div className="col-md-3 col-lg-3 mx-auto mt-3">
@@ -103,58 +101,53 @@ class Footer extends Component{
                         <div className="row align-items-center">
                             <div className="col-md-7 col-lg-8">
                             <p className="footer-text text-light">
-                                Copyright © {this.state.currentYear} All rights reserved by: <a className="text-decoration-none">
+                                Copyright © {this.state.currentYear} All rights reserved by: <span className="text-decoration-none">
                                 <strong className="text-warning">SchoolHouse</strong>
-                                </a>
+                                </span>
                             </p>
                             </div>
                             <div className="col-md-5 col-lg-4">
                             <div className="text-center text-md-right">
                                 <ul>
                                 <li className="list-inline-item">
-                                    <a
-                                    href=""
+                                    <span
                                     className="btn-floating btn-sm"
                                     style={{ fontSize: 23 }}
                                     >
                                     <i className="fab fa-facebook" />
-                                    </a>
+                                    </span>
                                 </li>
                                 <li className="list-inline-item">
-                                    <a
-                                    href=""
+                                    <span
                                     className="btn-floating btn-sm"
                                     style={{ fontSize: 23 }}
                                     >
                                     <i className="fab fa-square-twitter" />
-                                    </a>
+                                    </span>
                                 </li>
                                 <li className="list-inline-item">
-                                    <a
-                                    href=""
+                                    <span
                                     className="btn-floating btn-sm"
                                     style={{ fontSize: 23 }}
                                     >
                                     <i className="fab fa-google-plus" />
-                                    </a>
+                                    </span>
                                 </li>
                                 <li className="list-inline-item">
-                                    <a
-                                    href=""
+                                    <span
                                     className="btn-floating btn-sm"
                                     style={{ fontSize: 23 }}
                                     >
                                     <i className="fab fa-instagram" />
-                                    </a>
+                                    </span>
                                 </li>
                                 <li className="list-inline-item">
-                                    <a
-                                    href=""
+                                    <span
                                     className="btn-floating btn-sm"
                                     style={{ fontSize: 23 }}
                                     >
                                     <i className="fab fa-linkedin" />
-                                    </a>
+                                    </span>
                                 </li>
                                 </ul>
                             </div>
@@ -166,11 +159,11 @@ class Footer extends Component{
                 </div>
                 {/* footer */}
                 {/* Back to Top */}
-                <a href="#" className="btn btn-lg btn-lg-square back-to-top">
+                <button className="btn btn-lg btn-lg-square back-to-top">
                     Up
                     <FontAwesomeIcon icon={faArrowUp} size="2xl" />
                     {/* <i className="fas fa-arrow-up" /> */}
-                </a>
+                </button>
                 </>
 
             </div>
