@@ -1,9 +1,5 @@
 import React, { Component } from "react";
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 19baf6fa9567a84c6586fb0d9488f8f0fb9d8655
 class bookings extends Component{
     render(){
         return(

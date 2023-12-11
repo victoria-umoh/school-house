@@ -484,7 +484,6 @@ class Home extends Component{
                         </div>
                       </div>
                       <div className="row d-flex justify-content-center gallery">
-<<<<<<< HEAD
                         <div className="col-md-2 col-lg-6 col-sm-12" style={{ width: 270, padding: 0 }} >
                           <img src="assets/images/students13.jpeg" className="img-fluid w-100 h-100" />
                         </div>
@@ -529,84 +528,6 @@ class Home extends Component{
                         </div>
                         <div className="col-md-2" style={{ width: 270, padding: 0 }}>
                           <img src="assets/images/students15.jpeg" className="img-fluid w-100 h-100" />
-=======
-                        <div
-                          className="col-md-2 col-lg-6 col-sm-12"
-                          style={{ width: 270, padding: 0 }}
-                        >
-                          <img
-                            src="assets/images/students13.jpeg" alt=""
-                            className="img-fluid w-100 h-100"
-                          />
-                        </div>
-                        <div className="col-md-2" style={{ width: 270, padding: 0 }}>
-                          <img
-                            src="assets/images/students2.jpeg" alt=""
-                            className="img-fluid w-100 h-100"
-                          />
-                        </div>
-                        <div className="col-md-2" style={{ width: 270, padding: 0 }}>
-                          <img
-                            src="assets/images/students4.jpeg" alt=""
-                            className="img-fluid w-100 h-100"
-                          />
-                        </div>
-                        <div className="col-md-2" style={{ width: 270, padding: 0 }}>
-                          <img
-                            src="assets/images/students3.jpeg" alt=""
-                            className="img-fluid w-100 h-100"
-                          />
-                        </div>
-                        <div className="col-md-2" style={{ width: 270, padding: 0 }}>
-                          <img
-                            src="assets/images/students7.jpeg" alt=""
-                            className="img-fluid w-100 h-100"
-                          />
-                        </div>
-                        <div className="col-md-2" style={{ width: 270, padding: 0 }}>
-                          <img
-                            src="assets/images/musical.jpg" alt=""
-                            className="img-fluid w-100 h-100"
-                          />
-                        </div>
-                      </div>
-                      <div className="row d-flex justify-content-center gallery">
-                        <div className="col-md-2" style={{ width: 270, padding: 0 }}>
-                          <img
-                            src="assets/images/students5.jpeg" alt=""
-                            className="img-fluid w-100 h-100"
-                          />
-                        </div>
-                        <div className="col-md-2" style={{ width: 270, padding: 0 }}>
-                          <img
-                            src="assets/images/students14.jpeg" alt=""
-                            className="img-fluid w-100 h-100"
-                          />
-                        </div>
-                        <div className="col-md-2" style={{ width: 270, padding: 0 }}>
-                          <img
-                            src="assets/images/students12.jpeg" alt=""
-                            className="img-fluid w-100 h-100"
-                          />
-                        </div>
-                        <div className="col-md-2" style={{ width: 270, padding: 0 }}>
-                          <img
-                            src="assets/images/students10.jpeg" alt=""
-                            className="img-fluid w-100 h-100"
-                          />
-                        </div>
-                        <div className="col-md-2" style={{ width: 270, padding: 0 }}>
-                          <img
-                            src="assets/images/students8.jpeg" alt=""
-                            className="img-fluid w-100 h-100"
-                          />
-                        </div>
-                        <div className="col-md-2" style={{ width: 270, padding: 0 }}>
-                          <img
-                            src="assets/images/students11.webp" alt=""
-                            className="img-fluid w-100 h-100"
-                          />
->>>>>>> 19baf6fa9567a84c6586fb0d9488f8f0fb9d8655
                         </div>
                       </div>
                     </section>
@@ -763,7 +684,7 @@ class Home extends Component{
                     </section>
                     {/* Team End */}
 
-                    {/*  Testimonial Start  */}
+                    {/* Testimonial Start */}
                     {/* <section id="testimonial" className="pt-5 pb-5">
                       <div className="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
                         <div className="container">
@@ -771,12 +692,11 @@ class Home extends Component{
                             <h4 className="section-title px-3 h4">Testimonial</h4>
                             <h1 className="mb-5">Our Clients Say!</h1>
                           </div>
-                          
                           <div className="owl-carousel testimonial-carousel position-relative">
                             <div className="testimonial-item text-center">
                               <img
                                 className="border rounded-circle p-2 mx-auto mb-3"
-                                src="assets/img/testimonial-1.jpg" alt=""
+                                src="assets/img/testimonial-1.jpg" alt=''
                                 style={{ width: 80, height: 80 }}
                               />
                               <h5 className="mb-0">Client Name</h5>
@@ -791,25 +711,7 @@ class Home extends Component{
                             <div className="testimonial-item text-center">
                               <img
                                 className="border rounded-circle p-2 mx-auto mb-3"
-                                src="assets/img/testimonial-2.jpg" alt=""
-<<<<<<< HEAD
-                                style={{ width: 80, height: 80 }}
-                              />
-                              <h5 className="mb-0">Client Name</h5>
-                              <p>Profession</p>
-                              <div className="testimonial-text bg-light text-center p-4">
-                                <p className="mb-0">
-                                  Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit
-                                  diam amet diam et eos. Clita erat ipsum et lorem et sit.
-                                </p> 
-                              </div>
-                            </div>
-                            <div className="testimonial-item text-center">
-                              <img
-                                className="border rounded-circle p-2 mx-auto mb-3"
-                                src="assets/img/testimonial-3.jpg" alt=""
-=======
->>>>>>> 19baf6fa9567a84c6586fb0d9488f8f0fb9d8655
+                                src="assets/img/testimonial-2.jpg" alt=''
                                 style={{ width: 80, height: 80 }}
                               />
                               <h5 className="mb-0">Client Name</h5>
@@ -824,9 +726,7 @@ class Home extends Component{
                             <div className="testimonial-item text-center">
                               <img
                                 className="border rounded-circle p-2 mx-auto mb-3"
-<<<<<<< HEAD
-=======
-                                src="assets/img/testimonial-3.jpg" alt=""
+                                src="assets/img/testimonial-3.jpg" alt=''
                                 style={{ width: 80, height: 80 }}
                               />
                               <h5 className="mb-0">Client Name</h5>
@@ -841,8 +741,7 @@ class Home extends Component{
                             <div className="testimonial-item text-center">
                               <img
                                 className="border rounded-circle p-2 mx-auto mb-3"
->>>>>>> 19baf6fa9567a84c6586fb0d9488f8f0fb9d8655
-                                src="assets/img/testimonial-4.jpg" alt=""
+                                src="assets/img/testimonial-4.jpg" alt=''
                                 style={{ width: 80, height: 80 }}
                               />
                               <h5 className="mb-0">Client Name</h5>
@@ -858,7 +757,7 @@ class Home extends Component{
                         </div>
                       </div>
                     </section> */}
-                    {/*  Testimonial End  */}
+                    {/* Testimonial End */}
                   </div>
             </div>
         )

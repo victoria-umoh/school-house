@@ -331,82 +331,50 @@ class classes extends Component{
                         </div>
                       </div>
                       <div className="row d-flex justify-content-center gallery">
-                        <div
-                          className="col-md-2 col-lg-6 col-sm-12"
-                          style={{ width: 270, padding: 0 }}
-                        >
-                          <img
-                            src="assets/images/students13.jpeg"
-                            className="img-fluid w-100 h-100" alt=""
-                          />
+                        <div className="col-md-2 col-lg-6 col-sm-12" style={{ width: 270, padding: 0 }} >
+                          <img src="assets/images/students13.jpeg" className="img-fluid w-100 h-100" />
                         </div>
                         <div className="col-md-2" style={{ width: 270, padding: 0 }}>
-                          <img
-                            src="assets/images/students2.jpeg" alt=""
-                            className="img-fluid w-100 h-100"
-                          />
+                          <img src="assets/images/students2.jpeg" className="img-fluid w-100 h-100" />
+                        </div>
+
+                        <div className="col-md-2" style={{ width: 270, padding: 0 }}>
+                          <img src="assets/images/students4.jpeg" className="img-fluid w-100 h-100" />
                         </div>
                         <div className="col-md-2" style={{ width: 270, padding: 0 }}>
-                          <img
-                            src="assets/images/students4.jpeg" alt=""
-                            className="img-fluid w-100 h-100"
-                          />
+                          <img src="assets/images/students3.jpeg" className="img-fluid w-100 h-100"/>
                         </div>
                         <div className="col-md-2" style={{ width: 270, padding: 0 }}>
-                          <img
-                            src="assets/images/students3.jpeg" alt=""
-                            className="img-fluid w-100 h-100"
-                          />
+                          <img src="assets/images/students7.jpeg" className="img-fluid w-100 h-100" />
                         </div>
                         <div className="col-md-2" style={{ width: 270, padding: 0 }}>
-                          <img
-                            src="assets/images/students7.jpeg" alt=""
-                            className="img-fluid w-100 h-100"
-                          />
+                          <img src="assets/images/musical.jpg" className="img-fluid w-100 h-100" />
+                        </div>
+                      {/* </div> */}
+                      {/* <div className="row d-flex justify-content-center gallery"> */}
+                        <div className="col-md-2" style={{ width: 270, padding: 0 }}>
+                          <img src="assets/images/students5.jpeg" className="img-fluid w-100 h-100" />
                         </div>
                         <div className="col-md-2" style={{ width: 270, padding: 0 }}>
-                          <img
-                            src="assets/images/musical.jpg" alt=""
-                            className="img-fluid w-100 h-100"
-                          />
-                        </div>
-                      </div>
-                      <div className="row d-flex justify-content-center gallery">
-                        <div className="col-md-2" style={{ width: 270, padding: 0 }}>
-                          <img
-                            src="assets/images/students5.jpeg" alt=""
-                            className="img-fluid w-100 h-100"
-                          />
+                          <img src="assets/images/students14.jpeg" className="img-fluid w-100 h-100" />
                         </div>
                         <div className="col-md-2" style={{ width: 270, padding: 0 }}>
-                          <img
-                            src="assets/images/students14.jpeg" alt=""
-                            className="img-fluid w-100 h-100"
-                          />
+                          <img src="assets/images/students12.jpeg" className="img-fluid w-100 h-100" />
                         </div>
                         <div className="col-md-2" style={{ width: 270, padding: 0 }}>
-                          <img
-                            src="assets/images/students12.jpeg" alt=""
-                            className="img-fluid w-100 h-100"
-                          />
+                          <img src="assets/images/students10.jpeg" className="img-fluid w-100 h-100" />
                         </div>
                         <div className="col-md-2" style={{ width: 270, padding: 0 }}>
-                          <img
-                            src="assets/images/students10.jpeg" alt=""
-                            className="img-fluid w-100 h-100"
-                          />
+                          <img src="assets/images/students8.jpeg" className="img-fluid w-100 h-100" />
                         </div>
                         <div className="col-md-2" style={{ width: 270, padding: 0 }}>
-                          <img
-                            src="assets/images/students8.jpeg" alt=""
-                            className="img-fluid w-100 h-100"
-                          />
+                          <img src="assets/images/students11.webp" className="img-fluid w-100 h-100" />
                         </div>
                         <div className="col-md-2" style={{ width: 270, padding: 0 }}>
-                          <img
-                            src="assets/images/students11.webp" alt=""
-                            className="img-fluid w-100 h-100"
-                          />
+                          <img src="assets/images/students.jpeg" className="img-fluid w-100 h-100" />
+                        </div>
+                        <div className="col-md-2" style={{ width: 270, padding: 0 }}>
+                          <img src="assets/images/students15.jpeg" className="img-fluid w-100 h-100" />
                         </div>
                       </div>
                     </section>
