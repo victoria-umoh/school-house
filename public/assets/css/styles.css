@@ -34,7 +34,7 @@
   
   /*Navbar*/
     .nav-buttons{
-    margin-left: 15%;
+    /* margin-left: 15%; */
   }
 
   .navbar{
@@ -46,26 +46,26 @@
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   }
 
-  /* .navbar i{
+  .navbar ul li{
     font-size: 1.2rem;
-    padding: 0 0.7px;
+    /* padding: 0 0.7px; */
     transition: 0.4s ease;
     font-weight: 500;
     cursor: pointer;
     margin-left: 5px;
-  } */
+  }
   /* .navbar .navbar-brand{
     margin-left: 0;
     padding-left: 0;
   } */
-  .navbar .brand{
+  .navbar .brand-name{
     color: #fe5d37;
     /* margin: 3px 5px; */
     font-size: 2rem;
   }
 
   .navbar-light .navbar-nav .nav-link{
-    padding: 0 10px;
+    /* padding: 0 10px; */
     color: #103741;
     font-size: 1.5rem;
     font-weight: 700;
@@ -82,7 +82,7 @@
 
   .navbar-light .navbar-nav .nav-item button{
     color: white;
-    padding: 10px;
+    /* padding: 10px; */
     text-transform: lowercase;
     background-color: aqua;
   }
@@ -186,25 +186,35 @@
     transition: 0.4s ease;
 
   }
+  .edu-wrap{
+    display: flex;
+    justify-content: space-between;
+  }
+  #edu .edu-wrap p{
+    max-height: 20px;
+    font-size: 11px;
+  }
 /*Edu*/
 
-/*About*/
-  #about .abt p {
-    display: flex;
-    color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    flex-direction: column;
-    /*align-items: flex-start;*/
-    text-align: start;
+/* About */
+
+#about .abt p {
+  display: flex;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
 }
 
 .h4{
-  color: #103741;
-  text-align: center;
-  font-size: 32px;
-  font-weight: 700;
+color: #103741;
+text-align: center;
+font-size: 32px;
+font-weight: 700;
 }
-/*About*/
+
+/* About */
 
 /*Classes*/
 #classes{
@@ -361,7 +371,7 @@ video{
 /*Gallery*/
 #gallery .gallery {
     display: flex;
-    flex-wrap: wrap-reverse;
+    /* flex-wrap: wrap; */
     /*flex-wrap: nowrap;*/ /* Prevents wrapping */
 }
 /*Gallery*/

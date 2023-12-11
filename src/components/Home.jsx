@@ -11,11 +11,11 @@ class Home extends Component{
     render(){
         return(
             <div>
-                <>
                   {/* main container */}
                   <div className="container-fluid">
+
                     {/* Home */}
-                    <section id="home">
+                    <section id="home" className="mt-5">
                       <div className="row">
                         <div className="col">
                           <div className="container">
@@ -34,6 +34,7 @@ class Home extends Component{
                       </div>
                     </section>
                     {/* Home */}
+
                     {/* Edu */}
                     <section id="edu" className="pt-5 pb-5">
                       <div className="row text-center mb-5 mt-5">
@@ -47,65 +48,54 @@ class Home extends Component{
                         </div>
                       </div>
                       <div className="row container m-auto mt-5 mb-5">
-                        <div className="col-md-3">
+                        <div className="col-md-3 edu-wrap">
                           <div className="facility py-5 px-3 fac-item-1">
                             <div className="d-flex justify-content-center mb-1">
                             <FontAwesomeIcon icon={faFutbol} size="2xl" />
                             </div>
                             <div className="text-light text-center">
                               <h3>Playground</h3>
-                              <p>
-                                Some quick example text to build on the card title and make up
-                                the bulk.
-                              </p>
+                              <p>Some quick example text to build on the card title and make up the bulk.</p>
                             </div>
                           </div>
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-3 edu-wrap mt-2">
                           <div className="facility py-5 px-3 fac-item-2">
                             <div className="d-flex justify-content-center mb-1">
                             <FontAwesomeIcon icon={faPersonSwimming} size="2xl" />
                             </div>
                             <div className="text-light text-center">
                               <h3>Swim Classes</h3>
-                              <p>
-                                Some quick example text to build on the card title and make up
-                                the bulk.
-                              </p>
+                              <p>Some quick example text to build on the card title and make up the bulk.</p>
                             </div>
                           </div>
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-3 edu-wrap mt-2">
                           <div className="facility py-5 px-3 fac-item-3">
                             <div className="d-flex justify-content-center mb-1">
                             <FontAwesomeIcon icon={faMusic} size="2xl" />
                             </div>
                             <div className="text-light text-center">
                               <h3>Music &amp; Dance</h3>
-                              <p>
-                                Some quick example text to build on the card title and make up
-                                the bulk.
-                              </p>
+                              <p>Some quick example text to build on the card title and make up the bulk.</p>
                             </div>
                           </div>
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-3 edu-wrap mt-2">
                           <div className="facility py-5 px-3 fac-item-4">
                             <div className="d-flex justify-content-center mb-1">
                             <FontAwesomeIcon icon={faBus} size="2xl" />
                             </div>
                             <div className="text-light text-center">
                               <h3>School Bus</h3>
-                              <p>
-                                Some quick example text to build on the card title and make up
-                                the bulk.
-                              </p>
+                              <p>Some quick example text to build on the card title and make up the bulk.</p>
                             </div>
                           </div>
                         </div>
                       </div>
                     </section>
                     {/* Edu */}
+
                     {/* About */}
                     <section id="about" className="pt-5 pb-5">
                       <div className="row container m-auto mt-5 mb-5">
@@ -165,6 +155,7 @@ class Home extends Component{
                       </div>
                     </section>
                     {/* About */}
+
                     {/* Classes */}
                     <section id="classes" className="pt-5 pb-5">
                       <div className="row">
@@ -367,6 +358,7 @@ class Home extends Component{
                       </div>
                     </section>
                     {/* Classes */}
+
                     {/* Booking */}
                     <section id="bookings" className="pt-5 pb-5">
                       <div className="row">
@@ -492,86 +484,55 @@ class Home extends Component{
                         </div>
                       </div>
                       <div className="row d-flex justify-content-center gallery">
-                        <div
-                          className="col-md-2 col-lg-6 col-sm-12"
-                          style={{ width: 270, padding: 0 }}
-                        >
-                          <img
-                            src="assets/images/students13.jpeg"
-                            className="img-fluid w-100 h-100"
-                          />
+                        <div className="col-md-2 col-lg-6 col-sm-12" style={{ width: 270, padding: 0 }} >
+                          <img src="assets/images/students13.jpeg" className="img-fluid w-100 h-100" />
                         </div>
                         <div className="col-md-2" style={{ width: 270, padding: 0 }}>
-                          <img
-                            src="assets/images/students2.jpeg"
-                            className="img-fluid w-100 h-100"
-                          />
+                          <img src="assets/images/students2.jpeg" className="img-fluid w-100 h-100" />
+                        </div>
+
+                        <div className="col-md-2" style={{ width: 270, padding: 0 }}>
+                          <img src="assets/images/students4.jpeg" className="img-fluid w-100 h-100" />
                         </div>
                         <div className="col-md-2" style={{ width: 270, padding: 0 }}>
-                          <img
-                            src="assets/images/students4.jpeg"
-                            className="img-fluid w-100 h-100"
-                          />
+                          <img src="assets/images/students3.jpeg" className="img-fluid w-100 h-100"/>
                         </div>
                         <div className="col-md-2" style={{ width: 270, padding: 0 }}>
-                          <img
-                            src="assets/images/students3.jpeg"
-                            className="img-fluid w-100 h-100"
-                          />
+                          <img src="assets/images/students7.jpeg" className="img-fluid w-100 h-100" />
                         </div>
                         <div className="col-md-2" style={{ width: 270, padding: 0 }}>
-                          <img
-                            src="assets/images/students7.jpeg"
-                            className="img-fluid w-100 h-100"
-                          />
+                          <img src="assets/images/musical.jpg" className="img-fluid w-100 h-100" />
+                        </div>
+                      {/* </div> */}
+                      {/* <div className="row d-flex justify-content-center gallery"> */}
+                        <div className="col-md-2" style={{ width: 270, padding: 0 }}>
+                          <img src="assets/images/students5.jpeg" className="img-fluid w-100 h-100" />
                         </div>
                         <div className="col-md-2" style={{ width: 270, padding: 0 }}>
-                          <img
-                            src="assets/images/musical.jpg"
-                            className="img-fluid w-100 h-100"
-                          />
-                        </div>
-                      </div>
-                      <div className="row d-flex justify-content-center gallery">
-                        <div className="col-md-2" style={{ width: 270, padding: 0 }}>
-                          <img
-                            src="assets/images/students5.jpeg"
-                            className="img-fluid w-100 h-100"
-                          />
+                          <img src="assets/images/students14.jpeg" className="img-fluid w-100 h-100" />
                         </div>
                         <div className="col-md-2" style={{ width: 270, padding: 0 }}>
-                          <img
-                            src="assets/images/students14.jpeg"
-                            className="img-fluid w-100 h-100"
-                          />
+                          <img src="assets/images/students12.jpeg" className="img-fluid w-100 h-100" />
                         </div>
                         <div className="col-md-2" style={{ width: 270, padding: 0 }}>
-                          <img
-                            src="assets/images/students12.jpeg"
-                            className="img-fluid w-100 h-100"
-                          />
+                          <img src="assets/images/students10.jpeg" className="img-fluid w-100 h-100" />
                         </div>
                         <div className="col-md-2" style={{ width: 270, padding: 0 }}>
-                          <img
-                            src="assets/images/students10.jpeg"
-                            className="img-fluid w-100 h-100"
-                          />
+                          <img src="assets/images/students8.jpeg" className="img-fluid w-100 h-100" />
                         </div>
                         <div className="col-md-2" style={{ width: 270, padding: 0 }}>
-                          <img
-                            src="assets/images/students8.jpeg"
-                            className="img-fluid w-100 h-100"
-                          />
+                          <img src="assets/images/students11.webp" className="img-fluid w-100 h-100" />
                         </div>
                         <div className="col-md-2" style={{ width: 270, padding: 0 }}>
-                          <img
-                            src="assets/images/students11.webp"
-                            className="img-fluid w-100 h-100"
-                          />
+                          <img src="assets/images/students.jpeg" className="img-fluid w-100 h-100" />
+                        </div>
+                        <div className="col-md-2" style={{ width: 270, padding: 0 }}>
+                          <img src="assets/images/students15.jpeg" className="img-fluid w-100 h-100" />
                         </div>
                       </div>
                     </section>
                     {/* Our Gallery */}
+
                     {/* Team Start */}
                     <section id="teachers" className="pt-5 pb-5">
                       <div className="container-xxl py-5">
@@ -722,8 +683,9 @@ class Home extends Component{
                       </div>
                     </section>
                     {/* Team End */}
-                    {/* Testimonial Start */}
-                    <section id="testimonial" className="pt-5 pb-5">
+
+                    {/*  Testimonial Start  */}
+                    {/* <section id="testimonial" className="pt-5 pb-5">
                       <div className="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
                         <div className="container">
                           <div className="text-center">
@@ -735,7 +697,7 @@ class Home extends Component{
                             <div className="testimonial-item text-center">
                               <img
                                 className="border rounded-circle p-2 mx-auto mb-3"
-                                src="assets/img/testimonial-1.jpg"
+                                src="assets/img/testimonial-1.jpg" alt=""
                                 style={{ width: 80, height: 80 }}
                               />
                               <h5 className="mb-0">Client Name</h5>
@@ -750,7 +712,22 @@ class Home extends Component{
                             <div className="testimonial-item text-center">
                               <img
                                 className="border rounded-circle p-2 mx-auto mb-3"
-                                src="assets/img/testimonial-2.jpg"
+                                src="assets/img/testimonial-2.jpg" alt=""
+                                style={{ width: 80, height: 80 }}
+                              />
+                              <h5 className="mb-0">Client Name</h5>
+                              <p>Profession</p>
+                              <div className="testimonial-text bg-light text-center p-4">
+                                <p className="mb-0">
+                                  Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit
+                                  diam amet diam et eos. Clita erat ipsum et lorem et sit.
+                                </p> 
+                              </div>
+                            </div>
+                            <div className="testimonial-item text-center">
+                              <img
+                                className="border rounded-circle p-2 mx-auto mb-3"
+                                src="assets/img/testimonial-3.jpg" alt=""
                                 style={{ width: 80, height: 80 }}
                               />
                               <h5 className="mb-0">Client Name</h5>
@@ -765,22 +742,7 @@ class Home extends Component{
                             <div className="testimonial-item text-center">
                               <img
                                 className="border rounded-circle p-2 mx-auto mb-3"
-                                src="assets/img/testimonial-3.jpg"
-                                style={{ width: 80, height: 80 }}
-                              />
-                              <h5 className="mb-0">Client Name</h5>
-                              <p>Profession</p>
-                              <div className="testimonial-text bg-light text-center p-4">
-                                <p className="mb-0">
-                                  Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit
-                                  diam amet diam et eos. Clita erat ipsum et lorem et sit.
-                                </p>
-                              </div>
-                            </div>
-                            <div className="testimonial-item text-center">
-                              <img
-                                className="border rounded-circle p-2 mx-auto mb-3"
-                                src="assets/img/testimonial-4.jpg"
+                                src="assets/img/testimonial-4.jpg" alt=""
                                 style={{ width: 80, height: 80 }}
                               />
                               <h5 className="mb-0">Client Name</h5>
@@ -795,11 +757,9 @@ class Home extends Component{
                           </div>
                         </div>
                       </div>
-                    </section>
-                    {/* Testimonial End */}
+                    </section> */}
+                    {/*  Testimonial End  */}
                   </div>
-                </>
-
             </div>
         )
     }

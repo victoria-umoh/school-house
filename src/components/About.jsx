@@ -1,16 +1,11 @@
 import React, { Component } from "react";
 
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faGithub, faFacebook, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
-// import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-
-
 class about extends Component{
     render(){
         return(
             <div>
                     {/* About */}
-                    <section id="about" className="pt-5 pb-5">
+                    <section id="about" className="pt-5 pb-5 mt-5">
                       <div className="row container m-auto mt-5 mb-5">
                         <div className="col-md-5">
                           <img src="assets/images/students6.jpeg" className="w-100 h-100" />
@@ -626,7 +621,7 @@ class about extends Component{
                     </section>
                     {/* Team End */}
                     {/* Testimonial Start */}
-                    <section id="testimonial" className="pt-5 pb-5">
+                    {/* <section id="testimonial" className="pt-5 pb-5">
                       <div className="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
                         <div className="container">
                           <div className="text-center">
@@ -697,7 +692,7 @@ class about extends Component{
                           </div>
                         </div>
                       </div>
-                    </section>
+                    </section> */}
                     {/* Testimonial End */}
             </div>
         )

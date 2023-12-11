@@ -6,7 +6,7 @@ class teachers extends Component{
         return(
             <div>
                     {/* Team Start */}
-                    <section id="teachers" className="pt-5 pb-5">
+                    <section id="teachers" className="pt-5 pb-5 mt-5">
                       <div className="container-xxl py-5">
                         <div className="container">
                           <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
@@ -156,7 +156,7 @@ class teachers extends Component{
                     </section>
                     {/* Team End */}
                     {/* Testimonial Start */}
-                    <section id="testimonial" className="pt-5 pb-5">
+                    {/* <section id="testimonial" className="pt-5 pb-5">
                       <div className="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
                         <div className="container">
                           <div className="text-center">
@@ -227,7 +227,7 @@ class teachers extends Component{
                           </div>
                         </div>
                       </div>
-                    </section>
+                    </section> */}
                     {/* Testimonial End */}
             </div>
         )

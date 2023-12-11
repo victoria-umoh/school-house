@@ -6,7 +6,7 @@ class contact extends Component{
         return(
             <div>
                 {/* Booking */}
-                <section id="bookings" className="pt-5 pb-5">
+                <section id="bookings" className="pt-5 pb-5 mt-5">
                       <div className="row">
                         <div className="col">
                           <div className="container text-center mt-5 mb-5">
